@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+
+# Node
+node_modules/
+dist/
+coverage/
+
+# Environment and data
+.env
+.env.local
+.data/
+*.sqlite3
+*.db
+chroma/
+data/raw/
+data/processed/
+data/sqlite/
+
+# Local research and one-off tooling
+notebooks/
+scripts/
+
+# OS/editor
+.DS_Store
+.vscode/
